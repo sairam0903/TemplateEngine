@@ -675,6 +675,29 @@
       }
     },
     {
+      "name": "Contact Info",
+      "data": {
+        "name": "Contact Info",
+        "id": 11,
+        "visualProperties": "",
+        "createdDateAsString": "",
+        "lastModifiedDateAsString": "",
+        "components": [
+          {
+            "category": "sample",
+            "class": "",
+            "content": {},
+            "name": "contactInfo",
+            "componentType": "Cerberus.TemplateEngine.Controller.Component.Sample.ContactInfo",
+            "friendlyName": "",
+            "id": 11,
+            "visualProperties": ""
+          }
+        ],
+        "resolutions": []
+      }
+    },
+    {
       "name": "Gmail",
       "data": {
         "name": "Gmail",

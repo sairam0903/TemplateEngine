@@ -5,6 +5,7 @@
 @import "component/video";
 @import "component/youTube";
 @import "component/gmail";
+@import "component/contactInfo";
 
 cs-component {
   @include transform-origin(top left);

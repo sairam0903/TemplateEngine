@@ -1,0 +1,63 @@
+<nav class="navbar navbar-static-top" role="navigation" style="margin-left:0px;background: red;">
+    <div class="navbar-header" style="text-align:center">
+        <div style=" height: 52px; width: 260px; ">
+            <span style="font-size: 30px;">Angular APP</span>
+        </div>
+    </div>
+</nav>
+
+<div id="wrapper">
+    <main>
+        <div id="content-position">
+            <div id="content">
+                <table>
+                    <tr>
+                        <th> Name</th>
+                        <th>Contact</th>
+                    </tr>
+                    <tr>
+                        <td>{{finalData.name}}</td>
+                        <td>{{finalData.index}}</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <th>Company</th>
+                        <th>Contact</th>
+                        <th>Country</th>
+                        <th>Country</th>
+                        <th>Country</th>
+                    </tr>
+                    <tr>
+                        <td>{{finalData.name}}</td>
+                        <td>{{finalData.gender}}</td>
+                        <td>{{finalData.eyecolor}}</td>
+                        <td>{{finalData.age}}</td>
+                        <td>{{finalData.isActive}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <aside id="sidebar">
+        <ul class="listul" style="list-style: none;">
+            <li ng-click="sideNav(1)">
+                Side Nav1
+                <ul style="list-style: none;">
+                    <li ng-click="sideNav(5, $event)">sideNav1.1</li>
+                    <li ng-click="sideNav(4, $event)">sideNav1.2</li>
+                    <li ng-click="sideNav(2, $event)">sideNav1.3</li>
+                </ul>
+            </li>
+            <li ng-click="sideNav(2)">Side Nav2
+            <li ng-click="sideNav(3)">Side Nav3</li>
+            <li ng-click="sideNav(4)">Side Nav4</li>
+            <li ng-click="sideNav(5)">Side Nav5</li>
+        </ul>
+    </aside>
+</div>
+
+<div id="sidebar-background"></div>
